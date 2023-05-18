@@ -1,2 +1,0 @@
-#
- Assistente Virtual em Python.

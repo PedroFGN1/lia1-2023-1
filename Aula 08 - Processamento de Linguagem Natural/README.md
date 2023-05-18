@@ -1,0 +1,2 @@
+#
+ Assistente Virtual em Python.
