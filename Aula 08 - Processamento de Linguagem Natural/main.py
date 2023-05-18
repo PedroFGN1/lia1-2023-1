@@ -9,16 +9,17 @@ r = sr.Recognizer()
 
 # Abrir o microfone para capturar áudio
 with sr.Microphone() as source:
-    while True:
+   #while True:
         # Definir microfone como fonte de áudio
         audio = r.listen(source)
         print(r.recognize_google(audio, language='pt'))
 
 
-# Assistente offline!
-#!/usr/bin/env python3
+# Assistente offline! Optei por utilizar esse
+# !/usr/bin/env python3
 
 from vosk import Model, KaldiRecognizer
+# Professor fiz uma pesquisa e vi que o OS não precisa ser importado e que vem como núcleo do python
 import os
 import pyaudio
 
